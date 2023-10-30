@@ -1,11 +1,11 @@
 {
   "name": "alialmasi",
-  "version": "2.1.0",
-  "description": "My NPX card (npx alialmasi)",
+  "version": "2.2.1",
+  "description": "My NPX card ($ npx alialmasi)",
   "main": "index.js",
   "scripts": {},
   "keywords": [
-    "npx card"
+    "npx card", "npx"
   ],
   "author": "Ali Almasi",
   "license": "MIT",

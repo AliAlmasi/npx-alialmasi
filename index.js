@@ -4,10 +4,10 @@ import boxen from "boxen";
 import chalk from "chalk";
 
 const boxenOptions = {
-  padding: 2,
+  padding: 1,
   width: 65,
   title: "Ali Almasi",
-  titleAlignment: "left",
+  titleAlignment: "center",
   borderStyle: "round",
   borderColor: "#6ce988",
 };
@@ -17,10 +17,10 @@ const intro = chalk.bold(
 );
 
 const links = [
-  { name: ("GitHub"), space: "      ", url: ("https://github.com/") + chalk.bold("alialmasi") },  { name: ("LinkedIn"), space: "    ", url: ("https://linkedin.com/in/") + chalk.bold("alialmasi") },
-  { name: ("Telegram"), space: "    ", url: ("https://t.me/") + chalk.bold("al1almasi") },  { name: ("X"), space: "           ", url: ("https://x.com/") + chalk.bold("a710almasi") },
-  { name: ("Medium"), space: "      ", url: ("https://medium.com/") + chalk.bold("@a710almasi") },
-  { name: ("dev.to"), space: "      ", url: ("https://dev.to/") + chalk.bold("alialmasi") },  { name: ("Blog"), space: "        ", url: ("https://") + chalk.bold("note.al1almasi.ir") },  { name: ("Instagram"), space: "   ", url: ("https://instagram.com/") + chalk.bold("al1almasi") }
+  { name: ("GitHub"), space: "      ", url: ("https://github.com/") + chalk.bold("alialmasi") },
+  { name: ("LinkedIn"), space: "    ", url: ("https://linkedin.com/in/") + chalk.bold("alialmasi") },
+  { name: ("My webpage"), space: "  ", url: ("https://") + chalk.bold("al1almasi.ir") },
+  { name: ("My notebook"), space: " ", url: ("https://") + chalk.bold("note.al1almasi.ir") }
 ];
 
 const linkList = links.map((link) => `${link.name} ${link.space} ${link.url}`).join("\n");
