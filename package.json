@@ -8,7 +8,7 @@
     "npx card"
   ],
   "author": "Ali Almasi",
-  "license": "ISC",
+  "license": "MIT",
   "type": "module",
   "bin": {
     "alialmasi": "./index.js"
