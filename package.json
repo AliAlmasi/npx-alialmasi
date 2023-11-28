@@ -1,6 +1,6 @@
 {
   "name": "alialmasi",
-  "version": "2.3.1",
+  "version": "2.3.5",
   "description": "My NPX card ($ npx alialmasi)",
   "main": "index.js",
   "scripts": {},
